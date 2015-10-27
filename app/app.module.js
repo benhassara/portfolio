@@ -18,6 +18,10 @@
         .state('home', {
             url: '/',
             templateUrl: 'app/layout/home.html'
+        })
+        .state('projects', {
+            url: '/projects',
+            templateUrl: 'app/layout/projects.html'
         });
     }
 })();

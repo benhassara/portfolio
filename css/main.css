@@ -1,3 +1,7 @@
 .nav-brand {
-    font-family: "Bevan", serif;
+    font-family: "Bevan", cursive;
+}
+
+.contact-lbl {
+    margin-top: 3px;
 }
