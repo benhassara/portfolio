@@ -2,6 +2,7 @@
     'use strict';
 
     angular.module('app.components', [
-        'app.components.folioNav'
+        'app.components.folioNav',
+        'app.components.projectPanel'
     ]);
 })();

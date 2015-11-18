@@ -5,3 +5,8 @@
 .contact-lbl {
     margin-top: 3px;
 }
+
+.panel-text {
+    max-height: 150px;
+    overflow: scroll;
+}

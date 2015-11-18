@@ -5,7 +5,8 @@
     angular.module('app', [
         'ui.router',
         'app.layout',
-        'app.components'
+        'app.components',
+        'app.services'
     ])
     .config(routeConfiguration);
 
@@ -21,7 +22,8 @@
         })
         .state('projects', {
             url: '/projects',
-            templateUrl: 'app/layout/projects.html'
+            templateUrl: 'app/layout/projects/projects.html',
+            controller: 'ProjectsCtrl as vm'
         });
     }
 })();

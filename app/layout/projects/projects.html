@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6" ng-repeat="proj in vm.projects">
+            <project-panel project-name="{{proj.name}}"
+                           project-image="{{proj.image}}"
+                           project-desc="{{proj.description}}"
+                           project-github="{{proj.github}}"
+                           project-live="{{proj.live}}">
+            </project-panel>
+        </div>
+    </div>
+</div>
